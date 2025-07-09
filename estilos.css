@@ -1,0 +1,38 @@
+:root {
+    --background-color: #121212; /* Couleur de fond sombre */
+    --text-color: #ffffff; /* Couleur du texte en sombre */
+    --text-cite: #cccccc; /* Couleur des citations */
+    --a-color: #bb86fc; /* Couleur des liens */
+}
+
+body {
+    font-family: Nunito, 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    user-select: none;
+}
+
+h1, h2, h3 {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+cite {
+    color: var(--text-cite);
+}
+
+a {
+    text-decoration: none;
+    color: var(--a-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    font-variant: small-caps;
+    cursor: pointer;
+}
